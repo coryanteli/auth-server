@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/auth_server_prod
+    username: manager
+    password: ${POSTGRES_DATASOURCE_PASSWORD}
